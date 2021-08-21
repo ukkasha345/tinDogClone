@@ -1,0 +1,168 @@
+body{
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+#title{
+    background-color:crimson ;
+}
+
+h1{
+    font-family:Montserrat;
+    color: white;
+    font-size: 3rem;
+    font-weight: bolder;
+    line-height: 1.5;
+}
+.container-fluid{
+    padding: 0 15%;
+}
+
+.navbar-brand{
+    font-family:Ubuntu;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.phonimg{
+    height: 600px; width: 300px;
+    transform: rotate(20deg);    
+    z-index: -1;
+}
+.phonimg:hover{
+    transform: rotate(0deg);
+}
+.dwnld {
+    padding-right: 5%;
+}
+#NavBr{
+   padding: 2.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-family:monospace;
+    font-weight: lighter;
+    font-size: 1.2rem;
+}
+/* features section */
+#features{
+    position: relative;
+    margin-top: -10%;
+    width: 100%;
+    padding: 5%;
+    background-color: white;
+    z-index: 1;
+}
+.feature-box{
+    text-align: center;
+    padding:5%;
+}
+.feature-box h3{
+    color: crimson ;
+    font-family: Montserrat;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.feature-box p{
+    font-family: monospace;
+    font-size: 1rem;
+    padding: 0%;
+}
+.icon{
+    color: crimson ;
+   }
+.icon:hover{
+    color:maroon;
+}
+/* Testemnals */
+#testimonial{
+    background-color: crimson;
+    text-align: center;
+}
+/* #testimonial h2{
+    padding-bottom: 5%;
+    font-family:Montserrat ;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 2.5rem;
+    color: white;
+}
+.testimonial img{
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+   
+} */
+.testimonial-text{
+    padding-bottom: 3%;
+    font-family:Montserrat ;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 2.5rem;
+    color: white;
+}   
+.testimonial-image{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+.carousel-item{
+    padding: 4% 10%;
+}
+/* Press section */
+#press{
+    background-color: crimson;
+    padding: 5%;
+}
+.press-img{
+    /* height: 80px; width: 80px; */
+    padding-top: 0%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    
+}
+/* pricing section */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+#pricing h2{
+
+    font-family: Montserrat;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 2.5rem;
+}
+#pricing p{
+    font-weight: bolder;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+
+/* CTA portion */
+#cta{
+    background-color: crimson;
+    text-align: center;
+    height: 500px;
+    padding: 7% 15%;
+
+}
+#cta h3{
+    font-family: Montserrat;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 2.5rem;
+    color: white;
+}
+.cta-icon
+{
+    margin: 10% 0%;
+}
+
+footer{
+    text-align: center;
+    padding: 7% 8%;
+    
+  
+}
